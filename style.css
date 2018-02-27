@@ -27,6 +27,16 @@ Cory's Template is based on Underscores http://underscores.me/, (C) 2012-2015 Au
   margin: 0 auto;
 }
 
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
 .slider-text-bg {
   background-color: rgba(0, 0, 0, 0.8);
 }
@@ -38,8 +48,28 @@ h2.slider-text-bg {
   padding: 5px 10px;
 }
 
+.blue-bg {
+  background-color: #009cd4;
+}
+
 .gray-bg {
   background-color: #f2f2f2;
+}
+
+.red-bg {
+  background-color: #d61c23;
+}
+
+.blue-text {
+  color: #009cd4;
+}
+
+.dark-text {
+  color: #060606;
+}
+
+.red-text {
+  color: #d61c23;
 }
 
 .border-btn,
@@ -83,6 +113,16 @@ a.border-btn.light-brdr:hover {
   -ms-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
+}
+
+a.lp-cta-btn {
+  background-color: #d61c23;
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  min-width: 250px;
+  padding: 10px 25px;
+  text-transform: uppercase;
 }
 
 .marketing-wrapper {
@@ -141,6 +181,10 @@ a.border-btn.light-brdr:hover {
 }
 .banner-wrapper.red {
   background-color: rgba(214, 28, 35, 0.5);
+}
+
+.lp-section {
+  padding: 15px 0;
 }
 
 html {
@@ -3011,6 +3055,77 @@ h3 {
   margin: 0 0 20px 0;
 }
 
+.intro-form {
+  color: #fff;
+  max-width: 480px;
+  padding: 15px 35px;
+  text-align: center;
+}
+.intro-form .constrain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.intro-form .large-text {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+.form-cta {
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.lp-callouts,
+.lp-services-list {
+  text-align: center;
+}
+
+.lp-services-list .flex-container {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+a.service-block {
+  margin: 0 0 20px 0;
+  width: 46.5%;
+}
+a.service-block .service-title {
+  font-weight: 700;
+}
+
+.lp-cta-testimonial {
+  text-align: center;
+}
+
+.testimonial-text {
+  color: #fff;
+  font-size: 22px;
+}
+.testimonial-text img {
+  margin: 0 3px;
+  position: relative;
+  top: -7px;
+}
+.testimonial-text .client-name {
+  display: block;
+  font-size: 18px;
+  margin: 10px 0 0 0;
+  text-transform: uppercase;
+}
+
 .company-information {
   display: block;
   margin: 0 0 20px 0;
@@ -3083,6 +3198,17 @@ h3 {
   .three-col .onethird-column {
     width: 31%;
   }
+
+  .lp-section {
+    padding: 20px 0;
+  }
+
+  .testimonial-text {
+    font-size: 26px;
+  }
+  .testimonial-text .client-name {
+    font-size: 20px;
+  }
 }
 @media only screen and (min-width: 776px) {
   #nav-bar #site-navigation .menu-primary-menu-container ul {
@@ -3136,6 +3262,17 @@ h3 {
 
   .four-col .onefourth-column {
     width: 22.5%;
+  }
+
+  .lp-section {
+    padding: 30px 0;
+  }
+
+  .testimonial-text {
+    font-size: 32px;
+  }
+  .testimonial-text .client-name {
+    font-size: 22px;
   }
 }
 @media only screen and (min-width: 1146px) {

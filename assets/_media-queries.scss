@@ -82,6 +82,19 @@
             width: 31%;
         }
     }
+
+    // Landing Page Template
+    .lp-section {
+        padding: 20px 0;
+    }
+
+    .testimonial-text {
+        font-size: 26px;
+    
+        .client-name {
+            font-size: 20px;
+        }
+    }
 }
 
 @media only screen and ( min-width: 776px ) {
@@ -174,6 +187,19 @@
 
         .onefourth-column {
             width: 22.5%;
+        }
+    }
+
+    // Landing Page Template
+    .lp-section {
+        padding: 30px 0;
+    }
+
+    .testimonial-text {
+        font-size: 32px;
+    
+        .client-name {
+            font-size: 22px;
         }
     }
 }
