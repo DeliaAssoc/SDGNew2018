@@ -9,13 +9,14 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<div id="banner-page" class="banner" style="background-image: url( <?php echo $banner['url']; ?> );">
-				<div class="banner-wrapper <?php the_field( 'banner_overlay_color' ); ?>">
-					<div class="banner-title">
-						<h1><?php echo get_the_title(); ?></h1>
-					</div>
-				</div>
-			</div>
+
+            <div id="banner-page" class="banner" style="background-image: url( <?php the_field( 'banner' ); ?> );">
+                <div class="banner-wrapper <?php the_field( 'banner_overlay_color' ); ?>">
+                    <div class="banner-title">
+                        <h1><?php echo get_the_title(); ?></h1>
+                    </div>
+                </div>
+            </div>
 
             <section class="lp-section lp-intro-text <?php the_field('introduction_area_background_color'); ?>">
                 <div class="constrain">

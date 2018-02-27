@@ -3055,13 +3055,7 @@ h3 {
   margin: 0 0 20px 0;
 }
 
-.intro-form {
-  color: #fff;
-  max-width: 480px;
-  padding: 15px 35px;
-  text-align: center;
-}
-.intro-form .constrain {
+.lp-intro-text .constrain {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3069,6 +3063,18 @@ h3 {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+.lp-intro-text h3 {
+  color: #d61c23;
+  font-size: 26px;
+}
+
+.intro-form {
+  color: #fff;
+  margin: 0 auto;
+  max-width: 480px;
+  padding: 15px 35px;
+  text-align: center;
 }
 .intro-form .large-text {
   font-size: 36px;
@@ -3096,6 +3102,19 @@ h3 {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+}
+
+a.callout-block {
+  margin: 0 auto 20px auto;
+  max-width: 480px;
+}
+a.callout-block .callout-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+a.callout-block .callout-snippet {
+  font-size: 16px;
+  color: #060606;
 }
 
 a.service-block {
@@ -3164,6 +3183,10 @@ a.service-block .service-title {
   .four-col .onefourth-column {
     width: 45%;
   }
+
+  a.service-block {
+    width: 30%;
+  }
 }
 @media only screen and (min-width: 768px) {
   .varmodule .flex-wrapper {
@@ -3201,6 +3224,46 @@ a.service-block .service-title {
 
   .lp-section {
     padding: 20px 0;
+  }
+
+  .lp-intro-text .constrain {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .lp-intro-text .text-area {
+    width: 60%;
+  }
+  .lp-intro-text .intro-sidebar {
+    width: 37%;
+  }
+  .lp-intro-text h3 {
+    font-size: 29px;
+  }
+
+  .lp-callouts .flex-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  a.callout-block {
+    width: 31.5%;
+  }
+
+  .form-cta {
+    font-size: 20px;
+  }
+  .form-cta .large-text {
+    font-size: 32px;
   }
 
   .testimonial-text {
@@ -3243,6 +3306,29 @@ a.service-block .service-title {
     margin-top: 20px;
     text-align: right;
   }
+
+  .lp-intro-text .text-area {
+    width: 67%;
+  }
+  .lp-intro-text .intro-sidebar {
+    width: 31%;
+  }
+
+  .form-cta {
+    font-size: 22px;
+  }
+  .form-cta .large-text {
+    font-size: 34px;
+  }
+
+  a.callout-block {
+    width: 31%;
+  }
+
+  a.service-block {
+    margin: 0 0 30px 0;
+    width: 23%;
+  }
 }
 @media only screen and (min-width: 1024px) {
   #nav-wrapper #nav-bar #site-navigation .menu-primary-menu-container ul li {
@@ -3266,6 +3352,18 @@ a.service-block .service-title {
 
   .lp-section {
     padding: 30px 0;
+  }
+
+  .lp-intro-text h3 {
+    font-size: 32px;
+  }
+
+  .form-cta .large-text {
+    font-size: 36px;
+  }
+
+  a.service-block {
+    margin: 0 0 40px 0;
   }
 
   .testimonial-text {

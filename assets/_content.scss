@@ -130,12 +130,8 @@
 }
 
 // Landing Pages
-.intro-form {
-    color: $lightest;
-    max-width: 480px;
-    padding: 15px 35px;
-    text-align: center;
-
+.lp-intro-text {
+    
     .constrain {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -145,6 +141,19 @@
             -ms-flex-direction: column;
                 flex-direction: column;
     }
+
+    h3 {
+        color: $red;
+        font-size: 26px;
+    }
+}
+
+.intro-form {
+    color: $lightest;
+    margin: 0 auto;
+    max-width: 480px;
+    padding: 15px 35px;
+    text-align: center;
 
     .large-text {
         font-size: 36px;
@@ -173,6 +182,21 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+}
+
+a.callout-block {
+    margin: 0 auto 20px auto;
+    max-width: 480px;
+
+    .callout-title {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .callout-snippet {
+        font-size: 16px;
+        color: $darkest;
+    }
 }
 
 a.service-block {
