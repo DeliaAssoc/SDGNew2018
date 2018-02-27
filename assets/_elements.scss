@@ -1,0 +1,25 @@
+/* Just for funs and it looks cool */
+::-moz-selection {
+	background: $red;
+	color: #fff;
+	text-shadow: none;
+}
+
+::selection {
+	background: $red;
+	color: #fff;
+	text-shadow: none;
+}
+
+h2 {
+	color: $red;
+	font-size: 1.75rem;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+h3 {
+	color: $blue;
+	font-size: 1.325rem;
+	font-weight: 400;
+}

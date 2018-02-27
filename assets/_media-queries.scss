@@ -1,0 +1,209 @@
+@media only screen and ( min-width: 568px ) {
+
+    .home-logos-wrapper {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        padding: 0 10px;
+    }
+
+    .four-col {
+        
+        .flex-wrapper {
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: row;
+                    flex-direction: row;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
+        }
+
+        .onefourth-column {
+            width: 45%;
+        }
+    }
+}
+
+@media only screen and ( min-width: 768px ) {
+
+    .varmodule {
+    
+        .flex-wrapper {
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: row;
+                    flex-direction: row;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+        }
+    }
+
+    .one-and-two {
+
+        .left-content {
+            width: 31%;
+        }
+
+        .right-content {
+            width: 64%;
+        }
+    }
+
+    .half-half {
+
+        .left-content,
+        .right-content {
+            width: 48%;
+        }
+    }
+
+    .two-and-one {
+        
+        .left-content {
+            width: 64%;
+        }
+
+        .right-content {
+            width: 31%;            
+        }
+    }
+
+    .three-col {
+
+        .onethird-column {
+            width: 31%;
+        }
+    }
+}
+
+@media only screen and ( min-width: 776px ) {
+
+    #nav-bar {
+    
+        #site-navigation {
+            
+            .menu-primary-menu-container {
+    
+                ul {
+                    margin: 2px 0 0 0;
+    
+                    li {
+                        font-size: 0.85em;
+                    }
+                }
+            }
+        }            
+    }
+
+    .sub-menu {
+
+        li {
+            margin: 0 !important;
+        }
+    }
+
+    .page-template-varmodule-template {
+
+        .page-sidebar {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 23.23176%;
+        }
+        
+        .page-content {
+            float: right;
+            display: block;
+            width: 74.41059%;
+        }   
+    }
+}
+
+@media only screen and ( min-width: 957px ) {
+
+    #nav-bar #site-navigation .menu-primary-menu-container ul {
+        margin: 0;
+    }
+
+    #honeywell-logo {
+        margin-top: 20px;
+        text-align: right;
+    }
+}
+
+@media only screen and ( min-width: 1024px ) {
+
+    #nav-wrapper {
+
+        #nav-bar {
+
+            #site-navigation {
+
+                .menu-primary-menu-container {
+
+                    ul li {
+                        margin: 0 20px 0 0;
+
+                        a {
+                            font-size: 1em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    #home-logos {
+        padding: 40px 0 20px 0;
+    }
+
+    .home-logo {
+        padding: 0 30px;
+    }
+
+    .four-col {
+
+        .onefourth-column {
+            width: 22.5%;
+        }
+    }
+}
+
+@media only screen and ( min-width: 1146px ) {
+
+    #home-marketing {
+        overflow: initial;
+        padding: 0;
+
+        .marketing-box {
+            margin-bottom: -117px;
+            top: -167px;
+        }
+    }
+
+    .marketing-wrapper .marketing-box {
+        float: left;
+        margin-right: 2.35765%;
+        width: 31.76157%;
+    }
+
+    .marketing-wrapper .marketing-box:last-child {
+        margin-right: 0;
+    }
+}
+
+.site-footer {
+
+    .footer-logo {
+        padding: 55px 0 20px 0;
+    }
+}

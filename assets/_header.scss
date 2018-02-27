@@ -1,0 +1,20 @@
+.site-header .site-branding #header-logo .header-img-wrapper #logo {
+    padding: 15px 0 10px 0;
+}
+
+#primary-menu {
+
+    .menu-item-has-children > a {
+        cursor: default;
+    }
+}
+
+#header-search {
+    position: relative;
+}
+
+#search-drop {
+    left: 0;
+    position: absolute;
+    top: 25px;
+}

@@ -1,0 +1,127 @@
+.constrain {
+	display: block;
+	padding: 0 10px;
+	max-width: 1024px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+
+.slider-text-bg {
+	background-color: rgba( 0, 0, 0, 0.8 );
+}
+
+h2.slider-text-bg {
+	display: inline-block;
+	font-family: 'Roboto', arial, Arial, Helvetica, sans-serif;
+	font-size: 1.65rem !important;
+	padding: 5px 10px;
+}
+
+.gray-bg {
+	background-color: lighten( $gray, 50% );
+}
+
+.border-btn,
+a.border-btn {
+	border: solid 2px;
+	display: inline-block;
+	padding: 5px 40px;
+	text-transform: uppercase;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+	
+	&.dark-brdr {
+		color: darken( $blue, 15% );
+		border-color: darken( $blue, 15% );
+
+		&:hover {
+			color: $lightest;
+			background-color: darken( $blue, 15% );
+			-webkit-transition: all 0.25s ease-in-out;
+			-moz-transition: all 0.25s ease-in-out;
+			-ms-transition: all 0.25s ease-in-out;
+			-o-transition: all 0.25s ease-in-out;
+			transition: all 0.25s ease-in-out;
+		}
+	}
+
+	&.light-brdr {
+		color: $lightest;
+		border-color: $lightest;
+
+		&:hover {
+			color: darken( $blue, 15% );
+			background-color: $lightest;
+			-webkit-transition: all 0.25s ease-in-out;
+			-moz-transition: all 0.25s ease-in-out;
+			-ms-transition: all 0.25s ease-in-out;
+			-o-transition: all 0.25s ease-in-out;
+			transition: all 0.25s ease-in-out;
+		}
+	}
+}
+
+.marketing-wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.marketing-wrapper::after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.marketing-wrapper .marketing-box {
+	  display: block;
+	  background-color: #fdfbfc;
+	  margin: 40px auto 0 auto;
+	  max-width: 410px;
+	  position: relative;
+	  -webkit-box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.21);
+	  -moz-box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.21);
+	  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.21);
+}
+
+.marketing-wrapper .marketing-box .marketing-copy {
+	padding: 30px 25px 30px 25px;
+}
+
+.marketing-wrapper .marketing-box .marketing-copy h2 {
+	color: $blue;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 1.3125em;
+	margin: 0px;
+}
+
+.marketing-wrapper .marketing-box .marketing-copy p {
+	margin: 20px 0px;
+	font-weight: 400;
+	font-size: 0.875em;
+}
+
+.marketing-wrapper .marketing-box .marketing-copy a {
+	margin: 0px;
+	color: $red;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.marketing-wrapper .marketing-box .marketing-copy a:hover {
+	color: $blue;
+}
+
+.banner-wrapper {
+
+	&.blue {
+		background-color: rgba( $blue, 0.5 );
+	}
+
+	&.red {
+		background-color: rgba( $red, 0.5 );
+	}
+}
