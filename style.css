@@ -3076,6 +3076,9 @@ h3 {
   padding: 15px 35px;
   text-align: center;
 }
+.intro-form br {
+  display: none;
+}
 .intro-form .large-text {
   font-size: 36px;
   font-weight: 700;
